@@ -1,2 +1,4 @@
-name = input("Как Вас зовут? ")
-print("Привет,", name)
+for i in 'hello world':
+    if i == 'o':
+        continue
+    print(i * 2, end='')
