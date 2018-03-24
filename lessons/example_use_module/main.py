@@ -1,4 +1,4 @@
-import mymodule.py
+import my_module
 
-mymodule.hello()
-print(mymodule.fib(10))
+my_module.hello()
+print(my_module.fib(10))
