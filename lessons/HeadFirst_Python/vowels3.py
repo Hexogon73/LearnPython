@@ -1,3 +1,4 @@
+"""page 96"""
 vowels = ['a', 'e', 'i', 'o', 'u']
 word = input("Provide a world to search for vowels: ")
 found = []
