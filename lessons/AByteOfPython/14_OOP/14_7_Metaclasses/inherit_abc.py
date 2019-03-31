@@ -10,13 +10,13 @@ class SchoolMember(metaclass=ABCMeta):
         self.age = age
         print('(Created SchoolMember: {})'.format(self.name))
 
-    @abstractclassmethod
+    @abstractmethod
     def tell(self):
         print('Name: "{}" Age: "{}"'.format(self.name, self.age), end=' ')
 
 
 class Teacher(SchoolMember):
-    """Prepad"""
+    """Teacher"""
 
     def __init__(self, name, age, salary):
         SchoolMember.__init__(self, name, age)

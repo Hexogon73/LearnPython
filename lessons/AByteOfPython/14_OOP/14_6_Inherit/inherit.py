@@ -12,7 +12,7 @@ class SchoolMember:
 
 
 class Teacher(SchoolMember):
-    """Prepad"""
+    """Teacher"""
 
     def __init__(self, name, age, salary):
         SchoolMember.__init__(self, name, age)
