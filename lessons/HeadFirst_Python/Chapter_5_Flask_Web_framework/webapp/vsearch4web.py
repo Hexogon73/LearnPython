@@ -1,6 +1,7 @@
 """page 253, 259, 262, 268, 271"""
 
 from flask import Flask, render_template, request
+
 # from vsearch import search4letters
 from lessons.HeadFirst_Python.Chapter_4_Functions_and_modules.Modules.vsearch import search4letters
 
@@ -27,4 +28,5 @@ def entry_page() -> 'html':
                            the_title='Welcome to search4letters on the web!')
 
 
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
