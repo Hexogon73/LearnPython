@@ -3,7 +3,7 @@
 import os
 import re
 
-file_path = os.path.join('.', 'dataset_3363_2.txt')
+file_path = os.path.join('', 'dataset_3363_2.txt')
 text = None
 with open(file_path, 'r') as f:
     text = f.readline()

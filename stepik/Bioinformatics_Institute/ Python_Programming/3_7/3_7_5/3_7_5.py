@@ -31,8 +31,8 @@ Sample Output:
 10 -
 11 172.0
 """
-import os
 import io
+import os
 
 
 class Student:

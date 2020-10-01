@@ -2,7 +2,7 @@
 
 import os
 
-file_path = os.path.join('.', 'dataset_3363_3.txt')
+file_path = os.path.join('', 'dataset_3363_3.txt')
 text = ''
 with open(file_path, 'r') as f:
     all_text = f.readlines()

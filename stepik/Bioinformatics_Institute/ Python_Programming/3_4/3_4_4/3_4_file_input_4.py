@@ -18,9 +18,9 @@
 Примечание. Для разбиения строки на части по символу ';' можно использовать метод split
 """
 
-import os
-import io
 import codecs
+import io
+import os
 
 
 class Student:
